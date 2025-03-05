@@ -203,3 +203,12 @@ details p {
   padding-top: .25rem;
   padding-bottom: .25rem;
 }
+
+/* For CustomizingAdmonition */
+.cus-alert-bg-white {
+  background-color: #fff;
+  border-top: .5px solid; 
+  border-right: .5px solid;
+  border-bottom: .5px solid; 
+  border-color: #e1e5ef #e1e5ef #e1e5ef var(--ifm-alert-border-color);
+}
