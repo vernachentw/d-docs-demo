@@ -15,6 +15,7 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   // baseUrl: '/rtls/app/docs',
   baseUrl: '/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -62,6 +63,10 @@ const config: Config = {
 
           // editUrl:
           // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          admonitions: {
+            keywords: ['my-custom-admonition'],
+            extendDefaults: true,
+          },
         },
         blog: false,
         theme: {
@@ -133,6 +138,7 @@ const config: Config = {
     ],
     prism: {
       theme: prismThemes.github,
+      // theme: prismThemes.nightOwlLight,
       darkTheme: prismThemes.dracula,
     },
     onBrokenLinks: 'ignore',

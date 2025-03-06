@@ -212,3 +212,7 @@ details p {
   border-bottom: .5px solid; 
   border-color: #e1e5ef #e1e5ef #e1e5ef var(--ifm-alert-border-color);
 }
+
+.cus-alert-color {
+  border-left: 4px solid #6a1b9a;
+}
